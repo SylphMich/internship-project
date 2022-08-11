@@ -1,0 +1,20 @@
+//function random(){
+    //let x = Math.floor(Math.random() * 33 + 1);
+    //let y = Math.floor(Math.random() * 33 + 1);
+    //let z = Math.floor(Math.random() * 33 + 1);
+    //document.getElementById("attack").innerHTML = x;
+    //document.getElementById("defence").innerHTML = y;
+    //document.getElementById("health").innerHTML = z;
+//}
+//function random(){
+    //localStorage.setItem('char',Math.floor(Math.random() * 33 + 1))}
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+//function submit() {
+    //let names = document.getElementById("names").value;
+    //let allNames = JSON.parse(localStorage.getItem("allNames")) || [];
+    //allNames.push(names);
+    //localStorage.setItem("allNames", JSON.stringify(allNames));
+    //document.getElementById("names").value = '';
+    //document.getElementById("namesList").innerHTML = localStorage.getItem("allNames");
+  //}
+  
