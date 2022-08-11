@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="Register.js"></script>
     <title>Menu</title>
 </head>
 <body>
-    
+    <div class="container">
+        
+            <!--<label id="attack"></label><br>
+            <label id="defence"></label><br>
+            <label id="health"></label><br>
+            <button onclick="random()" type="submit" id="Random">roll</button>-->
+            
+            <form role="form" onsubmit="charmake(event)"  autocomplete="off">
+
+            <label>Име</label><br>
+            <input id="namechar" type="text" placeholder="Въвeди име" name="namechar" required><br>
+
+            <label>Атака</label><br>
+            <input id="attack" type="number" placeholder="максимум 33" name="atk" min="1" max="33" required><br>
+
+            <label>Защита</label><br>
+            <input id="defence" type="number" placeholder="33 макс" name="def" min="1" max="33" required><br>
+
+            <label>Кръв</label><br>
+            <input id="health" type="number" placeholder="максимум 33" name="hp" min="1" max="33" required><br>
+
+            <button type="submit" onclick="submit" >Създай герой</button><br>
+            </form>
+        <a href="Game start.html"><button type="button" class="cancelbtn">Връщане в началото</button></a> 
+    </div>
 </body>
 </html>
