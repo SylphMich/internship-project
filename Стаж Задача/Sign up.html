@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="Register.js"></script>
+    <title>Sign up</title>
+</head>
+<body> 
+      <div class="container">
+        <form role="form" onsubmit="signUp(event);" autocomplete="off">
+          <label for="uname"><b>Име</b></label>
+          <input id="names" type="text" placeholder="Въведи име" name="uname" required>
+      
+          <label for="psw"><b>Парола</b></label>
+          <input id="pwd" type="password" placeholder="Въведи парола" name="psw" required>
+
+          <label for="email"><b>Имейл</b></label>
+          <input id="email" type="text" placeholder="Email" name="email" required>
+      
+          <button onclick="submit()" type="submit">Създай акаунт</button>
+
+          <button id="clear" onclick="clear()">clear</button>
+
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Запомни ме
+          </label>
+        </div>
+      </form>
+        <div class="container" style="background-color:#f1f1f1">
+          <a href="Game start.html"><button type="button" class="cancelbtn">Отмени</button></a>
+          <a href="Index.html"><button type="button" class="log_inbtn">Влизане</button></a>
+        </div>
+</body>
+</html>
